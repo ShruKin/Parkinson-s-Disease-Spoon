@@ -2,23 +2,23 @@
 #include <Servo.h> 
 
 // Declare the Servo pin 
-int servoPinX = 6; 
-int servoPinY = 7; 
+int servoPinY = 6; 
+int servoPinZ = 7; 
 // Create a servo object 
-Servo ServoX, ServoY;
+Servo ServoY, ServoZ;
 
 void setup() { 
    // We need to attach the servo to the used pin number 
-   ServoX.attach(servoPinX); 
-   ServoY.attach(servoPinY); 
+   ServoY.attach(servoPinX); 
+   ServoZ.attach(servoPinY); 
 
-   ServoX.write(0); 
    ServoY.write(0); 
+   ServoZ.write(0); 
 }
 
-void rotate(int x, int y){
-   ServoX.write(x); 
-   ServoY.write(y);
+void rotate(int y, int z){
+   ServoY.write(y); 
+   ServoZ.write(z);
 }
 
 void loop(){ 

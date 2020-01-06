@@ -8,6 +8,10 @@ This Project is based on Arduino, aims to solve "feed with spoon" problems for p
 ![Axes](pics/Axes.jpeg)
 *Planned Axes*
 
+### Axis Revision
+![New Axex](pics/revised-axes.jpeg)
+*New Axes, in accordance to the MPU6050 set-up axes*
+
 ### Useful Links
 [Assistive Spoon for Patients with Parkinson's ](https://create.arduino.cc/projecthub/RupinC/assistive-spoon-for-patients-with-parkinson-s-3628b6)
 
